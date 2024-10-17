@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: fantasy;
+}
+
+body {
+    background-color:rgba(38, 38, 38, 1);
+}
+
+.menu {
+    display: flex;
+    width: 1571px;
+    height: 70px;
+    padding-bottom: 30px;
+}
+
+.menu img {
+    padding-left: 800px;
+    padding-top: 34px;
+}
+
+.menu div {
+    display: flex;
+}
+
+.menu1 {
+    display: flex;
+}
+
+.im1menu {
+    height: 2200px;
+    background-image: url("/imag/cat\ jump/cat100.jpg");
+    background-repeat: no-repeat;
+    background-size: 1900px;
+}
+
+.im1menu button{
+    width: 280px;
+    border: none;
+    border-radius: 100px;
+    height: 67px;
+    font-size: 30px;
+    display: flex;
+    background-color: rgba(120, 70, 190, 1);
+    margin-left: 1470px;
+    color:rgba(38, 38, 38, 1) ;
+}
+
+.im1menu button p {
+    padding-top: 17px;
+    padding-left: 19px;
+}
+
+.im1menu button img {
+    padding-left: 35px;
+}
+
+.im1menu {
+    
+}
+
+.mePh {
+    display: flex;
+    gap: 60px;
+    color: white;
+    font-size: 20px;
+    padding-left: 700px;
+    padding-top: 33px;
+}
+
+.meP {
+    border-radius: 1px;
+    height: 31px;
+    background-color: rgba(38, 38, 38, 1);
+}
+
+.meP p {
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.meP p:hover {
+    color: rgba(120, 70, 190, 1); /* Цвет текста при наведении */
+}
+
+
+
+
