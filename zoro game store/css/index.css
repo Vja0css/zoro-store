@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.b1Zoro-menu {
+    background-image: url("/medeo/zoro_imag/2f96bbed-a387-4e96-9e2c-0e6cbf6e07a7.png");
+    width: 1903px;
+    height: 896px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 13px;
+    
+}
+
+.b1_menu {
+    display: flex;
+    background-color: rgba(88, 88, 88, 0.45);
+    width: 1580px;
+    height: 91px;
+    margin-left: 157px;
+    border-radius: 15px;
+}
+
+.b1_menu ul {
+    display: flex;
+    list-style: none;
+    gap: 21px;
+    padding-top: 33px;
+    padding-left: 400px;
+}
+
+.b1_menu ul li a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: white;
+    width: 542px;
+    font-weight: 700;   
+    font-size: 58px;
+}
+
+.b1_text {
+    padding-top: 112px;
+    padding-left: 195px;
+}
+.b1_text p {
+    width: 376px;
+    font-weight: 400;
+    color: white;
+    padding-top: 35px;
+    font-size: 20px;
+}
+
+.b2 {
+    width: 1903px;
+    height: 859px;
+    background-color: rgba(37, 43, 66, 1);
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    
+}
+
+.b2 h2 {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.b2_nn {
+    display: flex;
+    gap: 45px;
+    padding-left: 400px;
+    padding-top: 89px;
+}
+
+.b2_nn div {
+    background-color: rgba(217, 217, 217, 1);
+    width: 328px;
+    height: 513px;
+    border-radius: 15px;
+}
+
+.b3_new {
+    background-color: rgba(171, 24, 3, 1);
+    width: 1903px;
+    height: 980px;
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.b3_1 {
+    display: flex;
+    padding-left: 430px;
+    gap: 73px;
+    padding-top: 57px;
+}
+
+.b3_1 div  {
+    border-radius: 15px;
+    width: 202px;
+    height: 285px;
+    background-color: rgba(217, 217, 217, 1);
+}
+
+
+.b3_1 div:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб */
+}
+
+.b3_1 div {
+    transition: 1s; /* Время эффекта */
+}
+
+.b2_nn div:hover {
+    transform: scale(1.25); /* Увеличиваем масштаб */
+}
+
+.b2_nn div {
+    transition: 0.5s; /* Время эффекта */
+}
+
+h1:hover {
+    color: rgb(255, 243, 82) ;
+}
+
+h1 {
+    transition: 0.5s; /* Время эффекта */
+}
+
+h2:hover {
+    color: rgb(255, 243, 82) ;
+}
+
+h2 {
+    transition: 0.5s; /* Время эффекта */
+}
+
+P:hover {
+    color: rgb(255, 243, 82) ;
+}
+
+P {
+    transition: 0.5s; /* Время эффекта */
+}
+
+
+
+
+
+
+
+
