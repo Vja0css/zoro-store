@@ -1,0 +1,362 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgba(37, 43, 66, 1);
+}
+
+.b1Zoro-menu {
+    background-image: url("/medeo/zoro_imag/2f96bbed-a387-4e96-9e2c-0e6cbf6e07a7.png");
+    height: 896px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 13px;
+    justify-content: center;
+    
+}
+
+.b1_menu {
+    display: flex;
+    background-color: rgba(88, 88, 88, 0.45);
+    height: 91px;
+    margin-left: 157px;
+    border-radius: 15px;
+    margin-right: 157px;
+}
+
+.b1_menu ul {
+    display: flex;
+    list-style: none;
+    gap: 21px;
+    padding-top: 33px;
+    margin: 0 auto;
+}
+
+.b1_menu ul li a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: white;
+    width: 542px;
+    font-weight: 700;   
+    font-size: 90px;
+}
+
+.b1_text {
+    padding-top: 112px;
+    padding-left: 30px;
+    justify-content: center;
+}
+.b1_text p {
+    width: 376px;
+    font-weight: 400;
+    color: white;
+    padding-top: 35px;
+    font-size: 20px;
+}
+
+.games {
+    background-image: url(/medeo/zoro_imag/Group\ 3\ \(4\).png);
+    width: 1076px;
+    height: 748px;
+}
+
+.games p {
+    width: 600px;
+    font-size: 24px;
+    color: white;
+}
+
+.reviews {
+    padding-top: 38px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.review {
+    border-radius: 30px ;
+    width: 510px;
+    height: 317px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.profile {
+    display: flex;
+    padding-top: 24px;
+    padding-left: 22px;
+}
+
+.profile_imag {
+    width: 82px;
+    height: 50px;
+    background-color: aliceblue;
+    border-radius: 100px;
+}
+
+.profile p {
+    padding-top: 13px;
+    padding-left: 26px;
+}
+
+@keyframes zoomInRotate {
+    0% {
+        transform: scale(0.5) rotate(0deg);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1) rotate(360deg);
+        opacity: 1;
+    }
+}
+
+.animate-image {
+    animation: zoomInRotate 1s ease forwards;
+}
+
+@keyframes fadeInScale {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.b1_text {
+    opacity: 0;
+    animation: fadeInScale 1s ease forwards;
+}
+
+.b1_text h1 {
+    animation-delay: 0.2s; /* Задержка для заголовка */
+}
+
+.b1_text p {
+    animation-delay: 0.4s; /* Задержка для параграфа */
+}
+
+@keyframes fadeInUp {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.games {
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.games.fadeInUp {
+    animation: fadeInUp 1s ease forwards;
+}
+
+.b2 {
+    background-image: url(/medeo/zoro_imag/Rectangle\ 114.png);
+    height: 398px;
+    justify-content: center;
+    margin-top: 1600px;
+}
+
+.b2 {
+    opacity: 0; /* Начальное состояние (невидимый) */
+    transform: translateY(20px); /* Смещение вниз */
+    transition: opacity 2s ease, transform 2s ease; /* Плавный переход */
+}
+
+.b2.fadeInUp {
+    opacity: 1; /* Конечное состояние (видимый) */
+    transform: translateY(0); /* Вернуться в исходное положение */
+}
+
+.Subscriptions {
+    background-image: url(/medeo/zoro_imag/Group\ 56.png);
+    height: 1650px;
+    margin-top: 1500px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Subscriptions_center {
+    width: 1445px;
+    height: 600px;
+    margin-top: 222px;
+}
+
+.Subscriptions_center {
+    text-align: center;
+    color: white;
+    font-size: 64px;
+
+}
+
+.Subscriptions_ju {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+}
+
+.Subscriptions_ju div {
+    border-radius: 30px;
+    width: 391px;
+    height: 490px;
+    margin-top: 72px;
+}
+
+.Subscriptions_ju img {
+    padding-top: 423px;
+}
+
+.Subscriptions_bu button {
+    border-radius: 30px;
+    border: none;
+    background-color: rgba(189, 97, 59, 1);
+    margin-top: 121px;
+    gap: 140px;
+    width: 286px;
+    height: 59px;
+    font-size: 28px;
+    color: white;
+}
+
+.Subscriptions_bu {
+    gap: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+.PUT_YOUR_GAME {
+    display: flex;
+    justify-content: center;
+    background-image: ;
+}
+
+form {
+    width: 671px;
+    height: 750px;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+form input {
+    width: 563px;
+    height: 71px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.61);
+    padding-left: 10px;
+    margin-bottom: 39px;
+}
+
+form textarea {
+    width: 563px;
+    height: 100px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.61);
+    padding-left: 10px;
+}
+
+form button {
+    width: 250px;
+    height: 42px;
+    background-color: #BD613B;
+    margin-top: 19px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+
+.console_form {
+    margin-top: 31px;
+}
+
+footer {
+    background-color:rgba(171, 24, 3, 1) ;
+    height: 52px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+.footer1 {
+    display: flex;
+    gap: 8px;
+    margin-top: 15px;
+} 
+
+.b3_1 div:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб */
+}
+
+.b3_1 div {
+    transition: 1s; /* Время эффекта */
+}
+
+.b2_nn div:hover {
+    transform: scale(1.25); /* Увеличиваем масштаб */
+}
+
+.b2_nn div {
+    transition: 0.5s; /* Время эффекта */
+}
+
+h1:hover {
+    color: rgb(255, 243, 82) ;
+}
+
+h1 {
+    transition: 0.5s; /* Время эффекта */
+}
+
+h2:hover {
+    color: rgb(255, 243, 82) ;
+}
+
+h2 {
+    transition: 0.5s; /* Время эффекта */
+}
+
+P:hover {
+    color: rgb(255, 243, 82) ;
+}
+
+P {
+    transition: 0.5s; /* Время эффекта */
+}
+
+.reviews {
+    background-image: url(/medeo/zoro_imag/bandicam\ 2025-01-24\ 20-44-55-534.png);
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.footer1 a {
+    text-decoration: none;
+    color: black;
+}
+
