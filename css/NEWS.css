@@ -1,0 +1,41 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(171, 24, 3, 1);
+}
+
+.b1_menu {
+    display: flex;
+    background-color: rgba(88, 88, 88, 0.45);
+    height: 91px;
+    margin-left: 157px;
+    border-radius: 15px;
+    margin-right: 157px;
+}
+
+.b1_menu ul {
+    display: flex;
+    list-style: none;
+    gap: 21px;
+    padding-top: 33px;
+    margin: 0 auto;
+}
+
+.b1_menu ul li a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+
+.b1Zoro-menu {
+    padding-top: 13px;
+    justify-content: center;
+}
+

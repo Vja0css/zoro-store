@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.b1Zoro-menu {
+    height: 91px;
+    padding-top: 13px;
+    justify-content: center;
+    
+}
+
+.b1_menu {
+    display: flex;
+    background-color: rgba(88, 88, 88, 0.45);
+    height: 91px;
+    margin-left: 157px;
+    border-radius: 15px;
+    margin-right: 157px;
+}
+
+.b1_menu ul {
+    display: flex;
+    list-style: none;
+    gap: 21px;
+    padding-top: 33px;
+    margin: 0 auto;
+}
+
+.b1_menu ul li a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(/medeo/zip-apk/cat_jump/Rectangle\ 10\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.b1 {
+    display: flex;
+    padding-left: 44px;
+    padding-top: 28px;
+    padding-right: 44px;
+    justify-content: left;
+}
+
+.IconGame {
+    width: 164px;
+    height: 256px;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 15px;
+    justify-content: left;
+}
+
+.InfoGame {
+    padding-left: 44px;
+    justify-content: left;
+}
+
+.InfoGame p {
+    color: white;
+    font-size: 40px;
+    justify-content: left;
+}
+
+.InfoGame h1 {
+    color: white;
+    font-size: 64px;
+    height: 56px;
+    justify-content: left;
+}
+
+.InfoGame button {
+    background-color: rgba(171, 24, 3, 1);
+    border: none;
+    padding: 10px 60px 10px 60px;
+    font-size: 48px;
+    border-radius: 15px;
+    margin-top: 44px;
+    justify-content: left;
+}
+
+.InfoGame a {
+    text-decoration: none;
+    color: white;
+}
+
+.info_imag {
+    color: white;
+    padding-left: 44px;
+    font-size: 16px;
+    padding-top: 5px;
+    justify-content: right;
+}
+
+.imag {
+    display: flex;
+    gap: 51px;
+    padding-top: 21px;
+    padding-left: 73px;
+    justify-content: left;
+    padding-bottom: 100px;
+}
+
+.imag div {
+    width: 179px;
+    height: 305px;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 15px;
+} 
+
+.home {
+    display: flex;
+    padding-top: 50px;
+}
+
+
+.descriptions {
+    color: white;
+    background-color: rgba(171, 24, 3, 1);
+    padding-top: 50px;
+    text-align: left;
+}
+
+.descriptions p {
+    margin-left: 100px;
+    font-size: 18px;
+    padding-top: 5px;
+    line-height: 40px;
+    justify-content: left;
+    margin-right: 100px;
+}
+
+.descriptions h2 {
+    font-size: 48px;
+    margin-left: 100px;
+}
+
+.UPDATES {
+    display: flex;
+    color: white;
+    padding-top: 96px;
+    background-color: rgba(171, 24, 3, 1);
+
+}
+
+.UPDATES h2 {
+    font-size: 48px;
+}
+
+.UPDATES p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+.b3_1 div:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб */
+}
+
+.b3_1 div {
+    transition: 1s; /* Время эффекта */
+}
+
+.b3_1 {
+    display: flex;
+    gap: 73px;
+    padding-top: 57px;
+    justify-content: center;
+    background-color: rgba(171, 24, 3, 1);
+    padding-bottom: 44px;
+}
+
+.b3_1 div  {
+    border-radius: 15px;
+    width: 202px;
+    height: 285px;
+    background-color: rgba(217, 217, 217, 1);
+}
+
+.b4 {
+    background-image: url(/medeo/zip-apk/cat_jump/tsunami.png);
+    height: 635px;
+    margin: 0 auto;
+}
+
+.b3 {
+    display: flex;
+    gap: 73px;
+    padding-top: 220px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.b3 div  {
+    border-radius: 15px;
+    width: 202px;
+    height: 285px;
+    background-color: rgba(217, 217, 217, 1);
+}
+
+footer {
+    background-color:rgba(171, 24, 3, 1) ;
+    height: 52px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+
+.footer1 {
+    display: flex;
+    gap: 8px;
+    padding-top: 13px;
+} 
+
+.b3_1 div:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб */
+}
+
+.b3_1 div {
+    transition: 1s; /* Время эффекта */
+}
+
+.b2_nn div:hover {
+    transform: scale(1.25); /* Увеличиваем масштаб */
+}
+
+.b2_nn div {
+    transition: 0.5s; /* Время эффекта */
+}
+
+h1:hover {
+    color: rgb(255, 243, 82) ;
+}
+
+h1 {
+    transition: 0.5s; /* Время эффекта */
+}
+
+h2:hover {
+    color: rgb(255, 243, 82) ;
+}
+
+h2 {
+    transition: 0.5s; /* Время эффекта */
+}
+
+P:hover {
+    color: rgb(255, 243, 82) ;
+}
+
+P {
+    transition: 0.5s; /* Время эффекта */
+}
+
+.footer1 a {
+    text-decoration: none;
+    color: black;
+}
+
+
