@@ -47,6 +47,7 @@ body {
     justify-content: center;
     margin-bottom: 40px;
     justify-content: center;
+    background-image: url();
 }
 
 .b3_1 div  {
@@ -54,7 +55,15 @@ body {
     width: 202px;
     height: 285px;
     background-color: rgba(217, 217, 217, 1);
+
 }
+
+.b3_1 a  {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
 
 
 .home {

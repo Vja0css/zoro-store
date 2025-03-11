@@ -39,3 +39,165 @@ body {
     justify-content: center;
 }
 
+.b1_H1p {
+    color: white;
+    padding-right: 185px;
+}
+
+.b1_H1p h1 {
+    font-size: 64px;
+    width: 535px;
+}
+
+.b1_img {
+    width: 588px;
+    height: 588px;
+    background-color: white;
+    border-radius: 55px;
+    margin: 0 auto;
+}
+
+.b1 {
+    display: flex;
+    padding-top: 66px;
+}
+
+.b1_H1p p {
+    font-size: 25px;
+    width: 535px;
+}
+
+.read_more {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 106px;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.more_news {
+    background-color: rgba(37, 43, 66, 1);
+    height: 677px;
+    margin: 0 auto;
+    gap: 37px;
+    text-align: center;
+}
+
+.more_news1 button {
+    width: 449px;
+    height: 81px;
+    border-radius: 15px;
+    background-color: rgba(88, 88, 88, 0.45);
+    border: none;
+    margin: 0 auto;
+    font-size: 36px;
+    margin-top: 17px;
+}
+
+.more_news1 {
+    display: flex;
+    margin: 0 auto;
+}
+
+.more_news2_icon {
+    background-color: rgba(217, 217, 217, 1);
+    width: 265px;
+    height: 265px;
+    border-radius: 55px;
+}
+
+.more_news2 {
+    display: flex;
+    gap: 51px;
+    justify-content: center;
+}
+
+.more_news h4 {
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 28px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+}
+
+
+form input {
+    width:  685px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgba(171, 24, 3, 0.7);
+    border: none;
+    margin-top: 31px;
+}
+
+.bu1 {
+    border-radius: 15px;
+    background-color: rgba(171, 24, 3, 0.7);
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin-top: 31px;
+}  
+
+.news_sistem {
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 53px;
+}
+
+.imag_news {
+    background-image: url("/medeo/zoro_imag/Rectangle\ 56.png");
+    width: 588px;
+    height: 588px;
+    margin-right: 38px;
+}
+
+.imag_news button {
+    width: 562px;
+    height: 115px;
+    background-color: rgba(12, 0, 0, 0.4);
+    border: none;
+    border-radius: 55px;
+    margin-top: 460px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.imag_news button img {
+    margin-top: 30px;
+}
+
+footer {
+    background-color:rgba(171, 24, 3, 1) ;
+    height: 52px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.footer1 {
+    display: flex;
+    gap: 8px;
+
+}
+
+.footer1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+

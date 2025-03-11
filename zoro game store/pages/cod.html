@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визуальный редактор</title>
+    <style>
+        /* Простейшая стилизация для блока "Старт" */
+        #startBlock {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+        }
+        #editor {
+            border: 1px solid #ccc;
+            padding: 10px;
+            min-height: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="controls">
+        <h3>Добавить элемент</h3>
+        <button onclick="addStartBlock()"></button>
+        <button onclick="addHeading()">Заголовок</button>
+        <button onclick="addParagraph()">Параграф</button>
+        <button onclick="addImage()">Изображение</button>
+        <button onclick="getHtml()">Получить HTML</button>
+    </div>
+
+    <div id="editor" contenteditable="true">
+        <h2>Ваш сайт</h2>
+        <p>Начните добавлять элементы здесь...</p>
+    </div>
+
+    <h3>Сгенерированный HTML:</h3>
+    <div id="htmlOutput"></div>
+
+    <script>
+        function addStartBlock() {
+            const startBlock = document.createElement("div");
+            startBlock.id = "startBlock";
+            startBlock.innerHTML = 
+            `
+
+            `;
+            document.getElementById("editor").appendChild(startBlock);
+            updateHtmlOutput();
+        }
+
+        function addHeading() {
+            const heading = document.createElement("h3");
+            heading.innerText = "Новый заголовок";
+            document.getElementById("editor").appendChild(heading);
+            updateHtmlOutput();
+        }
+
+        function addParagraph() {
+            const paragraph = document.createElement("p");
+            paragraph.innerText = "Новый параграф. Вы можете редактировать его.";
+            document.getElementById("editor").appendChild(paragraph);
+            updateHtmlOutput();
+        }
+
+        function addImage() {
+            const imageUrl = prompt("Введите URL изображения:");
+            if (imageUrl) {
+                const img = document.createElement("img");
+                img.src = imageUrl;
+                img.alt = "Изображение";
+                img.style.maxWidth = "100%";
+                document.getElementById("editor").appendChild(img);
+                updateHtmlOutput();
+            }
+        }
+
+        function getHtml() {
+            updateHtmlOutput();
+            alert("Ваш HTML код:\n\n" + document.getElementById("htmlOutput").innerText);
+        }
+
+        function updateHtmlOutput() {
+            const htmlContent = document.getElementById("editor").innerHTML;
+            document.getElementById("htmlOutput").innerText = htmlContent;
+        }
+
+        function startEditing() {
+            alert("Редактирование начато!");
+        }
+    </script>
+
+
+</body>
+</html>
