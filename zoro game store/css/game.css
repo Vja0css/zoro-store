@@ -1,6 +1,10 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 402;
+    font-style: normal;
 }
 
 .b1Zoro-menu {

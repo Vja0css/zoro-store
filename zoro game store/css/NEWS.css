@@ -2,6 +2,10 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 402;
+    font-style: normal;
 }
 
 body {
@@ -198,6 +202,46 @@ footer {
     text-decoration: none;
     color: black;
     font-size: 16px;
+}
+
+.b3_1 div:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб */
+}
+
+.b3_1 div {
+    transition: 1s; /* Время эффекта */
+}
+
+.b2_nn div:hover {
+    transform: scale(1.25); /* Увеличиваем масштаб */
+}
+
+.b2_nn div {
+    transition: 0.5s; /* Время эффекта */
+}
+
+h1:hover {
+    color: rgb(255, 243, 82) ;
+}
+
+h1 {
+    transition: 0.5s; /* Время эффекта */
+}
+
+h2:hover {
+    color: rgb(255, 243, 82) ;
+}
+
+h2 {
+    transition: 0.5s; /* Время эффекта */
+}
+
+P:hover {
+    color: rgb(255, 243, 82) ;
+}
+
+P {
+    transition: 0.5s; /* Время эффекта */
 }
 
 

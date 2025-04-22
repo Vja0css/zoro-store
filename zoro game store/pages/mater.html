@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/mater.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@402&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<div class="slider">
+    <div class="slides">
+        <div class="slide"><img src="/medeo/zoro_imag/Frame 2 (2).png" alt="Image 1"></div>
+    </div>
+</div>
+<div class="LOOKING">
+    <h2>YOU MAY BE LOOKING FOR "CUBE"</h2>
+    <style>
+        .image-slider {
+            position: relative;
+            max-width: 600px;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .image-slides {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+
+        .image-slide {
+            min-width: 100%;
+            box-sizing: border-box;
+            padding: 100px;
+        }
+
+        .image-slide img {
+            width: 300px; /* Устанавливаем ширину 140px */
+            height: 300px; /* Устанавливаем высоту 140px */
+            display: block;
+            text-align: center ;
+        }
+
+        .arrow-prev, .arrow-next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(255, 255, 255, 0.8);
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .arrow-prev {
+            left: 10px;
+        }
+
+        .arrow-next {
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="image-slider">
+    <div class="image-slides">
+        <a href="/medeo/zoro_imag/Group130.png" download=""><div class="image-slide"><img src="/medeo/zoro_imag/Group130.png" alt="Изображение 1"></div></a>
+        <div class="image-slide"><img src="image2.jpg" alt="Изображение 2"></div>
+        <div class="image-slide"><img src="image3.jpg" alt="Изображение 3"></div>
+    </div>
+    <button class="arrow-prev" onclick="changeSlide(-1)">&#10094;</button>
+    <button class="arrow-next" onclick="changeSlide(1)">&#10095;</button>
+</div>
+
+<script>
+    let currentSlide = 0;
+
+    function showSlide(index) {
+        const slides = document.querySelector('.image-slides');
+        const totalSlides = document.querySelectorAll('.image-slide').length;
+        
+        if (index >= totalSlides) {
+            currentSlide = 0;
+        } else if (index < 0) {
+            currentSlide = totalSlides - 1;
+        } else {
+            currentSlide = index;
+        }
+
+        slides.style.transform = 'translateX(' + (-currentSlide * 100) + '%)';
+    }
+
+    function changeSlide(direction) {
+        showSlide(currentSlide + direction);
+    }
+
+    setInterval(() => {
+        showSlide(currentSlide + 1);
+    }, 3000); // Переключение каждые 3 секунды
+</script>
+
+
+</div>
+
+<script>
+    let currentSlide = 0;
+
+    function showSlide(index) {
+        const slides = document.querySelector('.slides');
+        const totalSlides = document.querySelectorAll('.slide').length;
+        
+        if (index >= totalSlides) {
+            currentSlide = 0;
+        } else if (index < 0) {
+            currentSlide = totalSlides - 1;
+        } else {
+            currentSlide = index;
+        }
+
+        slides.style.transform = 'translateX(' + (-currentSlide * 100) + '%)';
+    }
+
+    function changeSlide(direction) {
+        showSlide(currentSlide + direction);
+    }
+
+    setInterval(() => {
+        showSlide(currentSlide + 1);
+    }, 3000); // Переключение каждые 3 секунды
+</script>
+</body>
+</html>

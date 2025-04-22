@@ -1,8 +1,12 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 402;
+    font-style: normal;
 }
+  
 
 .b1Zoro-menu {
     background-image: url("/medeo/zoro_imag/Group\ 68\ \(1\).png");
@@ -11,7 +15,6 @@
     background-size: cover;
     padding-top: 13px;
     justify-content: center;
-    
 }
 
 .b1_menu {
@@ -44,6 +47,7 @@ h1 {
     width: 542px;
     font-weight: 700;   
     font-size: 90px;
+    
 }
 
 .b1_text {
